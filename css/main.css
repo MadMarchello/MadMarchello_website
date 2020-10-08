@@ -1,0 +1,110 @@
+.navbar{
+ background:#F30021;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+
+.header{
+	position: relative;
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#F30021 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #F30021;
+	background:#F30021;
+	color:#fff;
+}
+.forMe button {
+		border:1px  solid #F30021;
+	background:#F30021;
+	color:#fff;
+}
+/**/
+.forMe{
+
+ margin: 6em 0;
+ padding: 1em;
+ position: relative;
+}
+.forMe h1{
+ color:#F30021;
+ margin: 0,5em;
+}
+.forMe img{
+ height: 100%;
+    width: 100%;
+    border-radius: 20%
+}
+.forMe span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.forMe .desc{
+ padding: 2em;
+}
+.forMe .desc h3{
+ color: #10828C;
+}
+.forMe .desc p{
+ line-height:2;
+ color:#888;
+}
+.forMe  {
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.universe{
+
+ margin: 6em 0;
+ padding: 1em;
+ position: relative;
+}
+.universe img {
+	display: block;
+	height: 16em;
+	max-width: 100%;
+}
+
+.universe h1 {
+	color: #F30021;
+}
